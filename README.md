@@ -108,7 +108,7 @@ AgentInvest uses **OpenRouter** as the LLM provider, offering several advantages
 
 3. **Configure API credentials**
    - Obtain an OpenRouter API key from [openrouter.ai](https://openrouter.ai)
-   - Set environment variables (no keys shown):
+   - Obtain a free Tavily API key from [tavily.com](https://tavily.com)
 
 ```bash
 # macOS/Linux (bash/zsh)
@@ -161,7 +161,6 @@ python main.py 0005.HK
 ## Supported Stock Tickers
 
 The application supports:
-- **US Stocks**: AAPL, MSFT, GOOGL, AMZN, NVDA, TSLA, etc.
 - **Hong Kong Stocks**: 0001.HK, 0002.HK, etc. (200+ tickers)
 
 ### Web Interface
