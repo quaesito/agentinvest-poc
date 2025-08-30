@@ -189,6 +189,17 @@ PoC_AgentInvest/
 └── utils.py                 # Playwright-based PDF generation utilities
 ```
 
+## 📊 Generated Reports
+
+After running the application, generated reports are saved in the `generated_reports/` directory. Each report includes:
+
+- **Markdown file** (`.md`) - Raw report content with formatting
+- **PDF file** (`.pdf`) - Professional formatted report with page numbers
+
+### Example Output
+
+**View a sample HSBC investment report:** [0005.HK_AgentInvest_HOLD.pdf](https://github.com/quaesito/agentinvest-poc/blob/main/generated_reports/0005.HK_AgentInvest_HOLD.pdf)
+
 ## 🔍 Key Components
 
 ### AgentInvest Core (`agent.py`)
