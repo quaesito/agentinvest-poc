@@ -1,0 +1,12 @@
+markdown2
+llama-index-core>=0.10.0
+llama-index-llms-openrouter
+python-dotenv
+tavily-python
+yfinance
+trafilatura
+streamlit
+redis
+tenacity
+lxml_html_clean
+playwright>=1.40.0
