@@ -175,20 +175,18 @@ The application supports:
 ```
 PoC_AgentInvest/
 ├── agent.py                 # Core AgentInvest class
-├── streamlit_app.py         # Web interface
-├── main.py                  # CLI entry point
-├── prompts.py               # AI prompts and templates
-├── utils.py                 # Playwright-based PDF generation utilities
 ├── cache_manager.py         # Redis caching layer
-├── gemini_vertex.py         # Legacy Vertex AI integration (deprecated)
-├── plot_utils.py           # Chart generation utilities
-├── tickers.py              # Supported stock tickers
+├── generated_reports/       # Output directory for reports
+├── main.py                  # CLI entry point
+├── plot_utils.py            # Chart generation utilities
+├── prompts.py               # AI prompts and templates
 ├── requirements.txt         # Python dependencies
-├── tools/                  # Specialized tools
-│   ├── web_search.py       # Tavily web search
-│   ├── financial_tools.py  # Yahoo Finance integration
-│   └── __init__.py
-└── generated_reports/      # Output directory for reports
+├── streamlit_app.py         # Web interface
+├── tickers.py               # Supported stock tickers
+├── tools/                   # Specialized tools
+│   ├── financial_tools.py   # Yahoo Finance integration
+│   └── web_search.py        # Tavily web search
+└── utils.py                 # Playwright-based PDF generation utilities
 ```
 
 ## 🔍 Key Components
